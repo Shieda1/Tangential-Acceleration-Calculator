@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tangential Acceleration Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="tangentialAccelerationRadio" name="variables" checked>
+  <label for="tangentialAccelerationRadio">Tangential Acceleration</label>
+
+  <input type="radio" id="objectsCircularRadiusRadio" name="variables">
+  <label for="objectsCircularRadiusRadio">Object's Circular Radius</label>
+
+  <input type="radio" id="angularAccelerationRadio" name="variables">
+  <label for="angularAccelerationRadio">Angular Acceleration</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Object's Circular Radius (m)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Angular Acceleration (rad/s²)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
